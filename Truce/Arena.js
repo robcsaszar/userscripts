@@ -1,10 +1,9 @@
 // ==UserScript==
 // @name        Truce.gg: Show plunderable gold & experience
 // @namespace   https://github.com/robcsaszar
-// @version     1.2
+// @version     1.3
 // @description Calculate plunderable player gold & experience
-// @author      Yukio
-// @attribution Brock Adams (https://github.com/BrockA)
+// @author      Rob Csaszar
 // @match       https://truce.gg/arena
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=truce.gg
 // @require     https://greasyfork.org/scripts/450416-waitforkeyelements/code/_waitForKeyElements.js?version=1087360
@@ -32,7 +31,6 @@ window.jQ = $;
 
 const setStyles = () => {
     addGlobalStyle(`${ARENA_TABLE} > tbody td.YSStyle.highValue { color: #45cb85;}`);
-    addGlobalStyle(`${ARENA_TABLE} > tbody td.YSStyle.normalValue { color: #6c6e70;}`);
 }
 
 const getRank = () => {
