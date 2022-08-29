@@ -15,7 +15,7 @@
 // @grant       GM.getValue
 // @run-at      document-end
 // ==/UserScript==
-// The @grant directives are needed to restore the proper sandbox.
+//- The @grant directives are needed to restore the proper sandbox.
 /* global $, waitForKeyElements */
 const HEADERS = ['bookmark', 'rank', 'playerName', 'level', 'gold', 'guild', 'actions', 'loot', 'exp'];
 const ARENA_TABLE = "#ranking_tbl";
@@ -45,7 +45,7 @@ const getLevel = () => {
     return document.querySelectorAll(levelContainer)[0].innerText;
 }
 
-function getLoot(jNode) {
+function getLoot() {
     document.querySelector("#tab_ranking").removeEventListener("click", handlePageNavClick);
     updateLoot()
     return document.querySelector("#tab_ranking").addEventListener("click", handlePageNavClick);
@@ -58,7 +58,7 @@ function handlePageNavClick(event) {
     }
 }
 
-function updateLoot(jNode) {
+function updateLoot() {
     const table = document.querySelectorAll("#ranking_tbl")[0];
     const tbody = table.getElementsByTagName('tbody')[0]
     const columns = table.rows[0].getElementsByTagName('th').length;
