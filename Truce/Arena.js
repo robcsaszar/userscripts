@@ -7,7 +7,7 @@
 // @attribution Brock Adams (https://github.com/BrockA)
 // @match       https://truce.gg/arena
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=truce.gg
-// @require     https://raw.githubusercontent.com/robcsaszar/Userscripts/Helpers/waitForKeyElements.js
+// @require     https://greasyfork.org/scripts/450416-waitforkeyelements/code/_waitForKeyElements.js?version=1087360
 // @updateURL   https://raw.githubusercontent.com/robcsaszar/Userscripts/Truce/Arena.meta.js
 // @downloadURL https://raw.githubusercontent.com/robcsaszar/Userscripts/Truce/Arena.js
 // @supportURL  https://github.com/robcsaszar/Userscripts/issues
