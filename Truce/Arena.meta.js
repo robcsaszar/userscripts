@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Truce.gg: Show plunderable gold & experience
 // @namespace   https://github.com/robcsaszar
-// @version     1.3
+// @version     1.4
 // @description Calculate plunderable player gold & experience
 // @author      Rob Csaszar
 // @match       https://truce.gg/arena
