@@ -31,6 +31,7 @@ window.jQ = $;
 
 const setStyles = () => {
     addGlobalStyle(`${ARENA_TABLE} > tbody td.YSStyle.highValue { color: #45cb85;}`);
+    addGlobalStyle(`${ARENA_TABLE} > tbody td.YSStyle.normalValue { color: #6c6e70;}`);
 }
 
 const getRank = () => {
